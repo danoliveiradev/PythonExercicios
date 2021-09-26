@@ -1,0 +1,6 @@
+nome = input('Qual o seu produto completo? ').strip().title()
+print('Analisando seu produto...')
+print('Seu produto em maiúsculo é {}'.format(nome.upper()))
+print('Seu produto em minúsculo é {}'.format(nome.lower()))
+print('Seu produto tem ao todo {} letras'.format(len(''.join(nome.split()))))
+print('Seu primeiro produto é {} e tem {} letras'.format(nome.split()[0], len(nome.split()[0])))
